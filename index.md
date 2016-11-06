@@ -18,5 +18,8 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   **User interface** is your choice and can be rudimentary.
   Be sure to answer any **questions** given in the problem statement.
 
-2. *(10pts)*
-3. *(10pts)*
+2. The task is to **make change** for *n* cents using the fewest number of coins of given denominations. Consider the following **greedy** strategy: use the coin of largest denomination smaller than the remaining amount, and iterate on the rest. For each of the following sets of coin denominations, **prove** the greedy strategy is optimal, or disprove via counterexample.
+  + (a) *(4 pts)* `{ 1, 10, 25 }` (i.e., pennies, dimes, and quarters)
+  + (b) *(4 pts)* `{ 1, 5, 10, 25 }` (i.e., add nickels)
+
+3. *(6pts)* (Huffman)
