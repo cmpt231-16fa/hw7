@@ -19,7 +19,9 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   Be sure to answer any **questions** given in the problem statement.
 
 2. The task is to **make change** for *n* cents using the fewest number of coins of given denominations \`c\_1=1 < c\_2 < ... < c\_k\`. Consider the following **greedy** strategy: use a coin of largest denomination smaller than the remaining amount, and iterate on the rest.
-  + (a) *(3 pts)* Demonstrate via **counterexample** that this greedy strategy is **not** optimal if we can only use pennies, dimes, and quarters (i.e., `c = { 1, 10, 25 }`).
-  + (b) *(9 pts)* **Prove** that greedy **is** optimal for all *n* if we can also use nickels (i.e., `c = { 1, 5, 10, 25 }`). A coin set is called *canonical* if greedy is optimal for all *n*.
+  + (a) *(2 pts)* Demonstrate via **counterexample** that this greedy strategy is **not** optimal if we can only use pennies, dimes, and quarters (i.e., `c = { 1, 10, 25 }`).
+  + (b) *(8 pts)* **Prove** that greedy **is** optimal for all *n* if we can also use nickels (i.e., `c = { 1, 5, 10, 25 }`). A coin set is called *canonical* if greedy is optimal for all *n*.
 
-3. *(8 pts)* (Huffman)
+3. *(4 pts)* (Huffman)
+
+4. *(6 pts)* (knapsack)
