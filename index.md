@@ -26,9 +26,9 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 3. Below are 12 most-frequently used letters in the English language, and their relative frequencies,
   *(Source: [Norvig + Mayzner, 2012](http://norvig.com/mayzner.html))*
 
-  | **E** | **T** | **A** | **O** | **I** | **N** | **S** | **R** | **H** | **L** | **D** | **C** |
-  |-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-  | 12.5% |  9.3% |  8.0% |  7.6% |  7.5% |  7.2% |  6.5% |  6.3% |  5.1% |  4.1% |  3.8% |  3.3% |
+    | **E** | **T** | **A** | **O** | **I** | **N** | **S** | **R** | **H** | **L** | **D** | **C** |
+    |-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+    | 12.5% |  9.3% |  8.0% |  7.6% |  7.5% |  7.2% |  6.5% |  6.3% |  5.1% |  4.1% |  3.8% |  3.3% |
 
   + (a) *(5 pts)* Build a **Huffman** encoding tree for these 12 letters, following the pseudocode
     in lecture.  (The sequence of *left* vs *right* child is important.)
