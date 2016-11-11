@@ -22,8 +22,9 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   + (a) *(2 pts)* Demonstrate via **counterexample** that this greedy strategy is **not** optimal if we can only use pennies, dimes, and quarters (i.e., `c = { 1, 10, 25 }`).
   + (b) *(8 pts)* **Prove** that greedy **is** optimal for all *n* if we can also use nickels (i.e., `c = { 1, 5, 10, 25 }`). A coin set is called *canonical* if greedy is optimal for all *n*.
 
-3. *(4 pts)* (Huffman)
+3. *(5 pts)* (Huffman hand-sim)
 
 <!-- given freqs, build Huffman, calc compression ratio -->
 
-4. *(6 pts)* (knapsack)
+4. *(5 pts)* Design (i.e., pseudocode) a **dynamic programming** solution for the 0-1 knapsack problem. *Hint:* For *n* items and a knapsack capacity of *W*, the subproblem graph is a 2D *n* x *W* table, where each subproblem *(i, w)* solves for the first *i* items and a capacity of *w*.
+
