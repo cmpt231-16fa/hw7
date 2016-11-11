@@ -37,4 +37,9 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   + (d) *(2 pts)* Calculate the **compression ratio** of this Huffman code, versus a fixed-length encoding.
     (Assume the text to be compressed uses only these 12 letters.)
 
-4. *(5 pts)* Design (i.e., pseudocode) a **dynamic programming** solution for the 0-1 knapsack problem. *Hint:* For *n* items and a knapsack capacity of *W*, the subproblem graph is a 2D *n* x *W* table, where each subproblem *(i, w)* solves for the first *i* items and a capacity of *w*.
+4. *(5 pts)* Design (i.e., pseudocode) a **dynamic programming** solution
+  for the **0-1 knapsack** problem. <br/>
+  *Hint:* For *n* items and a knapsack capacity of *W*,
+  the subproblem graph is a 2D *n* x *W* table,
+  where each subproblem *(i, w)* solves 
+  for the first *i* items and a capacity of *w*.
