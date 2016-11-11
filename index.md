@@ -24,4 +24,6 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 3. *(4 pts)* (Huffman)
 
+<!-- given freqs, build Huffman, calc compression ratio -->
+
 4. *(6 pts)* (knapsack)
