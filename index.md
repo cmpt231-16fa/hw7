@@ -8,7 +8,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 {% include policies.md %}
 {% include programming.md %}
 
-### HW7 (40pts)
+### HW7 (40pts) [(solutions)](solns)
 1. *(20 pts)* Choose one of the **textbook** problems #15-1 to #15-12 (p.406-412). <br/>
   Some of them, e.g., 15-2 and 15-5, may benefit from reading section 15.4.
   Others, e.g., 15-1 and 15-7, may benefit from ch22. <br/>
