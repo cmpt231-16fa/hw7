@@ -18,7 +18,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 + (3a) *(5 pts)* Build a **Huffman** encoding tree.
 
-  ![Huffman tree](../img/hw7-3a.svg)
+  ![hw7-3a](../img/hw7-3a.svg)
 
 + (3b) *(2 pts)* **Encode** a text of your choosing
 
