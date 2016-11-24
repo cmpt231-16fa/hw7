@@ -36,7 +36,8 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 + (3d) *(2 pts)* Calculate the **compression ratio**
 
-  In our Huffman code, `ETAOI` all use 3 bits, `NSRHL` use 4, and `DC` use 5.  <br/>
+  In our Huffman code, `ETAOI` all use 3 bits, `NSRHL` use 4, and `DC` use 5.
+
   The percentages do not add up to 100% because these are only the top 12 letters.
   If we assume a corpus of standard English text with only these 12 letters selected, then
   Huffman coding 1000 letters with the given ratios would take
