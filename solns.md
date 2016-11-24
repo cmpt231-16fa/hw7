@@ -40,12 +40,12 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   The percentages do not add up to 100% because these are only the top 12 letters.
   If we assume a corpus of standard English text with only these 12 letters selected, then
   Huffman coding 1000 letters with the given ratios would take
-  \`3(125 + 93 + 80 + 76 + 75)/0.812 + 4(72 + 65 + 63 + 51 + 41)/0.812 + 5(38 + 33)/0.812\`
-  = 2870/0.812 &simeq; **3534** bits.
+  \`3((125 + 93 + 80 + 76 + 75)/0.812) + 4((72 + 65 + 63 + 51 + 41)/0.812) + 5((38 + 33)/0.812)\`
+  = 2870/0.812 &asymp; **3534** bits.
 
   Fixed encoding would require \`|~ log\_2 12 ~|\` = 4 bits per letter, for a total of **4000** bits.
 
-  The compression ratio is 4000/3534 &simeq; **1.1317**
+  The compression ratio is 4000/3534 &asymp; **1.1317**
   (Also accepted: file size 3534/4000 = 88.36%, or space savings 1 - 3534/4000 = 11.64%.)
 
   [A previous version of the solutions erroneously indicated that Huffman coding of 1000 letters
