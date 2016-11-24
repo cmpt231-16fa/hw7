@@ -37,13 +37,20 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 + (3d) *(2 pts)* Calculate the **compression ratio**
 
   In our Huffman code, `ETAOI` all use 3 bits, `NSRHL` use 4, and `DC` use 5.  <br/>
+  The percentages do not add up to 100% because these are only the top 12 letters.
+  If we assume a corpus of standard English text with only these 12 letters selected, then
   Huffman coding 1000 letters with the given ratios would take
-  \`3(125 + 93 + 80 + 76 + 75) + 4(72 + 65 + 63 + 51 + 41) + 5(38 + 33)\` = **2870** bits.
+  \`3(125 + 93 + 80 + 76 + 75)/0.812 + 4(72 + 65 + 63 + 51 + 41)/0.812 + 5(38 + 33)/0.812\`
+  = 2870/0.812 &simeq; **3534** bits.
 
   Fixed encoding would require \`|~ log\_2 12 ~|\` = 4 bits per letter, for a total of **4000** bits.
 
-  The compression ratio is 4000/2870 = **1.3937**.
-  (Also accepted: file size 2870/4000 = 71.75%, or space savings 1 - 2870/4000 = 28.25%.)
+  The compression ratio is 4000/3534 &simeq; **1.1317**
+  (Also accepted: file size 3534/4000 = 88.36%, or space savings 1 - 3534/4000 = 11.64%.)
+
+  [A previous version of the solutions erroneously indicated that Huffman coding of 1000 letters
+  would take 2870 bits, for a compression ratio of 1.3937, file size of 71.75%,
+  and space savings of 28.25%.  Credit will be given for either answer.]
 
 + (4) *(5 pts)* Pseudocode **0-1 knapsack**
 
